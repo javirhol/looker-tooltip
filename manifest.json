@@ -1,0 +1,19 @@
+{
+  "name": "Javi Tooltip",
+  "logoUrl": "https://storage.googleapis.com/javitooltip2026/tooltip/info.png",
+  "organization": "Javier Guanini",
+  "organizationUrl": "https://javicv.ar/",
+  "description": "Tooltip interactivo y configurable para Looker Studio.",
+  "devMode": true,
+  "components": [{
+    "id": "javi-mouseover-tooltip",
+    "name": "Javi Tooltip",
+    "iconUrl": "https://storage.googleapis.com/javitooltip2026/tooltip/info.png",
+    "description": "Muestra un popup configurable al pasar el mouse.",
+    "resource": {
+      "js": "gs://javitooltip2026/tooltip/mouseovertooltip.js",
+      "config": "gs://javitooltip2026/tooltip/mouseovertooltip.json",
+      "css": "gs://javitooltip2026/tooltip/mouseovertooltipStyle.css"
+    }
+  }]
+}

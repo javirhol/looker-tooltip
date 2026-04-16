@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "id": "setdummy",
+      "label": "Datos",
+      "elements": [
+        {
+          "type": "DIMENSION",
+          "id": "dummydimension",
+          "label": "Añade cualquier Dimensión",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "tooltipsetting",
+      "label": "Configuración del Tooltip",
+      "elements": [
+        {
+          "id": "tooltiptext",
+          "label": "Texto",
+          "type": "TEXTAREA",
+          "defaultValue": "Escribe tu ayuda aquí..."
+        },
+        {
+          "id": "textfont",
+          "label": "Fuente",
+          "type": "FONT_FAMILY",
+          "defaultValue": "Arial"
+        },
+        {
+          "id": "textsize",
+          "label": "Tamaño del texto",
+          "type": "FONT_SIZE",
+          "defaultValue": 12
+        },
+        {
+          "id": "textcolor",
+          "label": "Color del texto",
+          "type": "FONT_COLOR",
+          "defaultValue": "#ffffff"
+        },
+        {
+          "id": "bordercolor",
+          "label": "Color del borde",
+          "type": "BORDER_COLOR",
+          "defaultValue": "#111111"
+        },
+        {
+          "id": "borderwidth",
+          "label": "Grosor del borde",
+          "type": "LINE_WEIGHT",
+          "defaultValue": 1
+        },
+        {
+          "id": "borderstyle",
+          "label": "Estilo del borde",
+          "type": "LINE_STYLE",
+          "defaultValue": "solid"
+        },
+        {
+          "id": "borderradius",
+          "label": "Redondeo del borde",
+          "type": "BORDER_RADIUS",
+          "defaultValue": 8
+        },
+        {
+          "id": "backgroundcolor",
+          "label": "Color de fondo",
+          "type": "FILL_COLOR",
+          "defaultValue": "#111111"
+        }
+      ]
+    },
+    {
+      "id": "iconsetting",
+      "label": "Configuración del Ícono",
+      "elements": [
+        {
+          "id": "tooltipicon",
+          "label": "Elegir Ícono",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "0",
+          "options": [
+            { "label": "Información (i)", "value": "0" },
+            { "label": "Idea (foco)", "value": "1" }
+          ]
+        },
+        {
+          "id": "iconsize",
+          "label": "Tamaño del Ícono",
+          "type": "TEXTINPUT",
+          "defaultValue": "24"
+        },
+        {
+          "id": "iconcolor",
+          "label": "Color del Ícono",
+          "type": "BORDER_COLOR",
+          "defaultValue": "#1a73e8"
+        }
+      ]
+    }
+  ]
+}
