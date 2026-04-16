@@ -11,9 +11,9 @@
     "iconUrl": "https://storage.googleapis.com/javitooltip2026/tooltip/info.png",
     "description": "Muestra un popup configurable al pasar el mouse.",
     "resource": {
-      "js": "gs://javitooltip2026/tooltip/mouseovertooltip.js",
-      "config": "gs://javitooltip2026/tooltip/mouseovertooltip.json",
-      "css": "gs://javitooltip2026/tooltip/mouseovertooltipStyle.css"
+      "js": "gs://javitooltip2026/tooltip/mouseovertooltip.v3.js",
+      "config": "gs://javitooltip2026/tooltip/mouseovertooltip.v3.json",
+      "css": "gs://javitooltip2026/tooltip/mouseovertooltipStyle.v3.css"
     }
   }]
 }

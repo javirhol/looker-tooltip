@@ -1,0 +1,45 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+}
+
+#iconDiv {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    box-sizing: border-box;
+}
+
+#iconDiv svg {
+    display: block;
+    visibility: visible;
+    flex: 0 0 auto;
+}
+
+.tooltip-content {
+    position: relative;
+    padding: 8px 12px;
+    line-height: 1.35;
+    white-space: pre-wrap;
+    max-width: 320px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+}
+
+.tooltip-shadow {
+    position: fixed;
+    overflow: visible;
+    width: max-content;
+    max-width: 320px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    pointer-events: none;
+}
